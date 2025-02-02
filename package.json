@@ -4,7 +4,7 @@
   "description": "Node.js server to compile Assembly code",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "bash install-nasm.sh && node index.js"
   },
   "dependencies": {
     "child_process": "latest",
