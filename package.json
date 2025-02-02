@@ -1,0 +1,14 @@
+{
+  "name": "asm-compiler",
+  "version": "1.0.0",
+  "description": "Node.js server to compile Assembly code",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "child_process": "latest",
+    "express": "^4.17.1",
+    "nodemon": "^3.1.9"
+  }
+}
